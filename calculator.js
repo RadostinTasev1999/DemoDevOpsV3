@@ -4,7 +4,7 @@ function getValues() {
   const b = parseFloat(document.getElementById("num2").value);
   return { a, b };
 }
-
+// comment from user 2
 function add() {
   const { a, b } = getValues();
   document.getElementById("result").textContent = a + b;
@@ -17,8 +17,3 @@ function subtract() {
 
 // New comment
 // Comment v2
-<<<<<<< HEAD
-
-// This is the local comment
-=======
->>>>>>> bcabf6ebe4dd79efc162edcf8c38256e670e9b95
