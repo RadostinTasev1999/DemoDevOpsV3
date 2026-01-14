@@ -14,6 +14,4 @@ function subtract() {
   document.getElementById("result").textContent = a - b;
 }
 
-function multiply() {
-  const { a, b } = getValues();
-  document.getElementById("result
+// New comment
