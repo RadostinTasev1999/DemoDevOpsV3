@@ -1,3 +1,4 @@
+// This is a new comment in this repository
 function getValues() {
   const a = parseFloat(document.getElementById("num1").value);
   const b = parseFloat(document.getElementById("num2").value);
@@ -16,5 +17,8 @@ function subtract() {
 
 // New comment
 // Comment v2
+<<<<<<< HEAD
 
 // This is the local comment
+=======
+>>>>>>> bcabf6ebe4dd79efc162edcf8c38256e670e9b95
