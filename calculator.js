@@ -4,7 +4,7 @@ function getValues() {
   const b = parseFloat(document.getElementById("num2").value);
   return { a, b };
 }
-
+// comment from user 1
 function add() {
   const { a, b } = getValues();
   document.getElementById("result").textContent = a + b;
